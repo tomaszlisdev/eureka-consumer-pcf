@@ -19,6 +19,9 @@ ext {
 }
 
 dependencies {
+	compile("org.springframework.boot:spring-boot-starter")
+	compile("org.springframework.boot:spring-boot-starter-actuator")
+	compile("org.springframework:spring-web")
 	implementation 'io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
